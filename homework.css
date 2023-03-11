@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    background-color: transparent;
+    border-radius: 20px;
+    color:white;
+    display: inline-block;
+    padding: 0 15px 0 0;
+    margin-left: 30px;
+    transition: .2s;
+}
+.navbar p{
+    padding: 5px 0 10px 15px;
+}
+li:hover{
+    background-color: rgb(226, 235, 252);
+    color: black;
+}
+.btn{
+    margin-right: 20px;
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: rgb(8, 89, 238);
+    transition: height .2s, width .2s;
+    border: 1px solid rgb(8, 89, 238);
+}
+.btn p{
+    padding: 5px 10px 10px 10px;
+}
+
+.btn:hover{
+    height: 42px;
+    width: 82px;
+    background-color: rgb(6, 42, 222);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(6, 42, 222);
+}
+.navpractice{
+    margin-top: 30px;
+    text-align: center;
+    height: 300px;
+    box-shadow: 0 0 20px black;
+    background-image: linear-gradient(90deg,rgb(254, 177, 239), rgb(92, 154, 181), rgb(103, 167, 194),rgb(213, 172, 209),rgb(163, 177, 177));
+}
+.navpractice h1{
+    padding-top: 70px;
+    font-size: 100px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.653);
+}
+.design{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    height: 400px;
+}
+.tabs1,.tabs2,.tabs3,.tabs4,.tabs5,.tabs6,.tabs7{
+    height: 100px;
+    background-color: azure;
+    border-radius: 60px;
+    margin-top: 150px;
+    rotate: 90deg;
+    width: 220px;
+}
+.tabs1{
+    background-color: rgb(157, 29, 171);
+    transition: height .3s, width .3s;
+}
+.tabs1:hover{
+    height: 108px;
+    width: 228px;
+    background-color: rgb(111, 26, 119) ;
+    box-shadow: 0 0 20px 10px rgb(234, 102, 246) ;
+}
+.tabs2{
+    background-color: rgb(28, 122, 255);
+    transition: height .3s, width .3s;
+}
+.tabs2:hover{
+    height: 108px;
+    width: 228px;
+    background-color: rgb(19, 41, 179) ;
+    box-shadow: 0 0 20px 10px rgb(123, 139, 248);
+}
+.tabs3{
+    background-color: rgb(35, 229, 255);
+    transition: height .3s, width .3s;
+}
+.tabs3:hover{
+    height: 108px;
+    width: 228px;
+    background-color: rgb(90, 186, 207) ;
+    box-shadow: 0 0 20px 10px rgb(217, 248, 255);
+}
+.tabs4{
+    background-color: rgb(94, 230, 57);
+    transition: height .3s, width .3s;
+}
+.tabs4:hover{
+    height: 108px;
+    width: 228px;
+    background-color: rgb(19, 152, 26) ;
+    box-shadow: 0 0 20px 10px rgb(127, 252, 134);
+}
+.tabs5{
+    background-color: rgb(250, 221, 28);
+    transition: height .3s ,width .3s;
+}
+.tabs5:hover{
+    height: 108px;
+    width: 228px;
+    background-color: rgb(205, 192, 14) ;
+    box-shadow: 0 0 20px 10px rgb(255, 250, 185);
+}
+.tabs6{
+    background-color: rgb(255, 128, 0);
+    transition: height .3s, width .3s;
+}
+.tabs6:hover{
+    height: 108px;
+    width: 228px;
+    background-color: rgb(168, 96, 9) ;
+    box-shadow: 0 0 20px 10px rgb(249, 168, 87);
+}
+.tabs7{
+    background-color: rgb(253, 27, 27);
+    transition: height .3s, width .3s;
+}
+.tabs7:hover{
+    height: 108px;
+    width: 228px;
+    background-color: rgb(171, 15, 15) ;
+    box-shadow: 0 0 20px 10px rgb(255, 90, 90);
+}
+.end h1{
+    text-align: center;
+    font-size: 200px;
+    font-weight: 300px;
+    margin-top: 50px;
+    transition: font-size .5s;
+}
+.end h1:hover{
+    font-size: 210px;
+    text-shadow: 3px 5px rgb(255, 0, 0);
+}
